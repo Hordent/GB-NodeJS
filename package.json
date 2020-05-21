@@ -1,0 +1,23 @@
+{
+  "name": "gb-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hordent/GB-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hordent/GB-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Hordent/GB-NodeJS#readme",
+  "dependencies": {
+    "ansi": "^0.3.1"
+  }
+}
