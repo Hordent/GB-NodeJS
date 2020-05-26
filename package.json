@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "game": "node ./hw2-game/game.js "
+    "game": "node ./hw2-game/game.js ",
+    "translate": "node ./hw3/task2-translate/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/Hordent/GB-NodeJS#readme",
   "dependencies": {
-    "ansi": "^0.3.1"
+    "ansi": "^0.3.1",
+    "axios": "^0.19.2",
+    "url": "^0.11.0"
   }
 }
