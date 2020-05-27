@@ -50,4 +50,4 @@ http.createServer(async (request, response) => {
         response.write('Неверный запрос!');
         response.end();
     }
-}).listen(8888);
+}).listen(80, '0.0.0.0');
