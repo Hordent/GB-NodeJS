@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "game": "node ./hw2-game/game.js ",
-    "translate": "node ./hw3/task2-translate/server.js"
+    "translate": "node ./hw3/task2-translate/server.js",
+    "weather": "node ./hw3/task1-weather/weather.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
   "dependencies": {
     "ansi": "^0.3.1",
     "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
     "url": "^0.11.0"
   }
 }
