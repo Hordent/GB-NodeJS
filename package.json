@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "hw4": "nodemon ./hw4/express.js",
     "game": "node ./hw2-game/game.js ",
     "translate": "node ./hw3/task2-translate/server.js",
     "weather": "node ./hw3/task1-weather/weather.js"
@@ -23,7 +24,14 @@
     "ansi": "^0.3.1",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
     "request": "^2.88.2",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
