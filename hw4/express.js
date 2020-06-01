@@ -4,7 +4,7 @@ const express = require('express');
 const cheerio = require('cheerio');
 const axios = require('axios');
 const cookieParser = require('cookie-parser');
- 
+
 
 
 const app = express();
@@ -67,13 +67,13 @@ const cities = [
 app.get('/', async (req, res) => {
     let cityId, city, weather;
     console.log(req.cookies);
-    if (req.cookies) {
-        if (req.cookies.city) {
-            cityId = +req.cookies.city;
-            city = cities[cityId];
-            weather = await getWeather(city.qName);
-        }
+
+    if (req.cookies.city) {
+        cityId = +req.cookies.city;
+        city = cities[cityId];
+        weather = await getWeather(city.qName);
     }
+
     if (!cityId) {
         cityId = 0;
         city = cities[cityId];
